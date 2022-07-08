@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -43,11 +43,6 @@ header {
   height: 685px;
 }
 
-.header__left {
-  margin: 50px 10px;
-  padding: 30px;
-}
-
 .left__block {
   display: flex;
   flex-direction: column;
@@ -56,6 +51,18 @@ header {
 
 .left__block > span {
   margin: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 79px;
+  color: #8e9fb7;
+}
+
+.left__block > button {
+  width: 100%;
+  height: 100px;
+  border: none;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -121,6 +128,40 @@ header {
 .header__right img {
   width: 150px;
   height: 150px;
+  line-height: 31px;
+  letter-spacing: 0.03px;
+  color: #2f3d55;
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  padding: 20px;
+}
+
+.header__right > h1 {
+  margin: 20px 0;
+  background: dimgray;
+  padding: 10px;
+  width: 120px;
+}
+
+.header__right > h2 {
+  margin: 30px 0;
+}
+
+.header__right > p {
+  margin: 15px 0;
+}
+
+.header__right > button {
+  width: 250px;
+  height: 60px;
+  background: none;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  cursor: pointer;
 }
 /* ! ========== HEADER FINISH =========*/
 
@@ -181,6 +222,64 @@ header {
 }
 
 /* ! ========== CONTENT-2 FINISH =========*/
+
+/* ! ======CONTENT TEST START ============*/
+
+.content_2T > h2 {
+  margin: 20px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: #000000;
+  font-family: "Roboto";
+  height: 71px;
+  font-family: Roboto;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 5.119999885559082px;
+  text-align: center;
+  height: 71px;
+  left: 12.12%;
+  right: 16%;
+  top: -3.77px;
+}
+
+.content_2T > p {
+  text-align: center;
+  color: #000000;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0.20999999344348907px;
+  text-align: center;
+  height: 33px;
+  left: 10.38%;
+  right: 10.38%;
+  top: 89.23px;
+}
+
+.content_2T > h3 {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 2.4000000953674316px;
+  text-align: center;
+  height: 25px;
+  left: 43.62%;
+  right: 43.5%;
+  top: 152.23px;
+}
+
+.carousel-item > img {
+  height: 800px;
+}
+
+/* ! ======CONTENT TEST FINISH ===========*/
+
 /* ! ========== CONTENT-3 START =========*/
 
 .content_3__down {
@@ -440,6 +539,54 @@ footer {
   border: none;
   margin-right: 5px;
 }
+
+/* BAEL_BRANCH GALLERY START*/
+.b_b_gallery_section_main {
+  max-width: 100%;
+  display: flex;
+  margin-top: 10%;
+}
+.b_b_gallery_section_inside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.b_b_part_1 {
+  width: 40%;
+  margin-left: 10%;
+}
+.b_b_part_2 {
+  width: 40%;
+  margin-left: 10%;
+}
+.b_b_main_txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 84px;
+  letter-spacing: 7.65px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 25%;
+}
+
+.b_b_txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 25%;
+  margin-top: 10%;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+/* BAEL_BRANCH gallery finish */
 
 /* ! ========== FOOTER FINISH =========*/
 
