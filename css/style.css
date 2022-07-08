@@ -1,6 +1,99 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+<<<<<<< HEAD
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+span {
+  ont-size: 1.2rem;
+  line-height: 1.45;
+  color: #727272;
+}
+
+h6 {
+  color: #939393;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+/* ! ========== HEADER START =========*/
+
+header {
+  margin: 20px;
+  background-image: url(../img/coffe.jpeg);
+  height: 100%;
+  box-sizing: border-box;
+  background-repeat: no-repeat;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__left {
+  margin: 50px 10px;
+  padding: 30px;
+  background-color: #ffffff;
+}
+
+.left__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.left__block > span {
+  margin: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 79px;
+  color: #8e9fb7;
+}
+
+.left__block > button {
+  width: 100%;
+  height: 100px;
+  border: none;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  letter-spacing: 0.03px;
+  color: #2f3d55;
+}
+
+.header__right {
+  display: flex;
+  flex-direction: column;
+  margin: 50px 0;
+  padding: 20px;
+}
+
+.header__right > h1 {
+  margin: 20px 0;
+  background: dimgray;
+  padding: 10px;
+  width: 120px;
+}
+
+.header__right > h2 {
+  margin: 30px 0;
+}
+
+=======
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
 body {
   margin: 0;
@@ -151,6 +244,7 @@ header {
   margin: 30px 0;
 }
 
+>>>>>>> 64b6dc393de71d7b23cf4988042aaa109814ed22
 .header__right > p {
   margin: 15px 0;
 }
@@ -222,6 +316,31 @@ header {
 }
 
 /* ! ========== CONTENT-2 FINISH =========*/
+<<<<<<< HEAD
+/* SECTION INFO START */
+.section-info {
+  width: 100%;
+  height: 763px;
+  background: #fff4f0;
+}
+
+#btn-pink {
+  height: 50px;
+  background: #e16ba9;
+  border-radius: 50px;
+  border: none;
+  width: 30%;
+  color: white;
+}
+#line {
+  width: 100%;
+}
+#info-pic {
+  width: 30%;
+  margin-top: 3%;
+}
+/* SECTION INFO FINISH */
+=======
 
 /* ! ======CONTENT TEST START ============*/
 
@@ -280,6 +399,7 @@ header {
 
 /* ! ======CONTENT TEST FINISH ===========*/
 
+>>>>>>> 64b6dc393de71d7b23cf4988042aaa109814ed22
 /* ! ========== CONTENT-3 START =========*/
 
 .content_3__down {
@@ -468,6 +588,97 @@ footer {
   color: #939393;
   line-height: 1.75;
   font-size: 1rem;
+<<<<<<< HEAD
+}
+
+.footer__right {
+  padding: 15px;
+  background: #f8f8f8;
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+}
+
+.footer__right__info {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+}
+
+.info__text > a {
+  display: flex;
+  text-decoration: none;
+  color: #939393;
+  line-height: 1.75;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.info__text > h6 {
+  color: #939393;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.footer__right__down {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.right__down__text {
+  text-transform: lowercase;
+  font-family: "Lato";
+  font-weight: 300;
+  color: #939393;
+  padding: 20px;
+}
+
+.right__down__text > h2:last-child {
+  color: #f8bb10;
+  font-weight: 700;
+  line-height: 2px;
+  font-size: 62px;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding: 5px;
+}
+
+.right__down__link {
+  display: flex;
+}
+
+.right__down__link > a {
+  display: block;
+  text-align: center;
+  background: #f8bb10;
+  width: 43px;
+  height: 40px;
+  font-size: 0.8rem !important;
+  line-height: 2.7 !important;
+  border-radius: 2px;
+  border: none;
+  margin-right: 5px;
+}
+
+/* ! ========== FOOTER FINISH =========*/
+@media all and (max-width: 1024px) {
+  .section-info {
+    height: 860px;
+  }
+  .section-info-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+  }
+  .section-info-right br {
+    display: none;
+  }
+  #info-pic {
+    width: 50%;
+  }
+=======
 }
 
 .footer__right {
@@ -570,8 +781,43 @@ footer {
   text-transform: uppercase;
   color: #000000;
   margin-bottom: 25%;
+>>>>>>> 64b6dc393de71d7b23cf4988042aaa109814ed22
 }
+@media all and (max-width: 425px) {
+  .header__right {
+    display: none;
+  }
 
+  .content_5__left > h6 {
+    display: none;
+  }
+  .work__table__top {
+    flex-wrap: wrap;
+  }
+  .content_4 {
+    flex-direction: column;
+  }
+  .content_1__left {
+    width: 100%;
+  }
+  .content_4__right {
+    width: 100%;
+  }
+
+<<<<<<< HEAD
+  .carousel-item > img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .content_6 {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+=======
 .b_b_txt {
   font-family: "Roboto";
   font-style: normal;
@@ -587,9 +833,65 @@ footer {
 }
 
 /* BAEL_BRANCH gallery finish */
+>>>>>>> 64b6dc393de71d7b23cf4988042aaa109814ed22
 
-/* ! ========== FOOTER FINISH =========*/
+  .footer__left {
+    width: 100%;
+  }
 
+<<<<<<< HEAD
+  .footer__right {
+    width: 100%;
+  }
+
+  .footer__right__info {
+    flex-direction: column;
+  }
+
+  .footer__right__down {
+    margin-top: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .right__down__text {
+    padding: 40px;
+  }
+  .content_1 {
+    flex-direction: column;
+  }
+
+  .content_1__right {
+    width: 100%;
+  }
+  .content_6__right__svg_down {
+    display: none;
+  }
+
+  .content_6__right {
+    width: 100%;
+  }
+  .content_6__right__svg_top {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  /*todo адаптив секции инфо */
+  .section-info {
+    height: 650px;
+  }
+  .section-info-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-info-right br {
+    display: none;
+  }
+  #info-pic {
+    width: 80%;
+=======
 @media all and (max-width: 768px) {
   .first__photo {
     width: 308px;
@@ -674,6 +976,7 @@ footer {
   .content_6__right__svg_top {
     flex-direction: column;
     row-gap: 20px;
+>>>>>>> 64b6dc393de71d7b23cf4988042aaa109814ed22
   }
 }
 
