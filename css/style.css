@@ -481,6 +481,54 @@ footer {
   margin-right: 5px;
 }
 
+/* BAEL_BRANCH GALLERY START*/
+.b_b_gallery_section_main {
+  max-width: 100%;
+  display: flex;
+  margin-top: 10%;
+}
+.b_b_gallery_section_inside {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.b_b_part_1 {
+  width: 40%;
+  margin-left: 10%;
+}
+.b_b_part_2 {
+  width: 40%;
+  margin-left: 10%;
+}
+.b_b_main_txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 53px;
+  line-height: 84px;
+  letter-spacing: 7.65px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 25%;
+}
+
+.b_b_txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  margin-bottom: 25%;
+  margin-top: 10%;
+  letter-spacing: 4.8px;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+/* BAEL_BRANCH gallery finish */
+
 /* ! ========== FOOTER FINISH =========*/
 
 @media all and (max-width: 425px) {
