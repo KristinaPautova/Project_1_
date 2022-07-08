@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap");
 
 body {
   margin: 0;
@@ -428,15 +428,22 @@ footer {
 .b_b_gallery_section_main {
   max-width: 100%;
   display: flex;
+  margin-top: 10%;
+}
+.b_b_gallery_section_inside {
+  width: 100%;
+  display: flex;
   justify-content: center;
 }
 
-.b_b_gallery_section_inside {
-  width: 86%;
-  display: flex;
-  justify-content: space-between;
+.b_b_part_1 {
+  width: 40%;
+  margin-left: 10%;
 }
-
+.b_b_part_2 {
+  width: 40%;
+  margin-left: 10%;
+}
 .b_b_main_txt {
   font-family: "Roboto";
   font-style: normal;
@@ -446,6 +453,7 @@ footer {
   letter-spacing: 7.65px;
   text-transform: uppercase;
   color: #000000;
+  margin-bottom: 25%;
 }
 
 .b_b_txt {
@@ -454,15 +462,14 @@ footer {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-
+  margin-bottom: 25%;
+  margin-top: 10%;
   letter-spacing: 4.8px;
   text-transform: uppercase;
 
   color: #000000;
 }
 
-.b_b_photo_square {
-}
 /* BAEL_BRANCH gallery finish */
 
 /* ! ========== FOOTER FINISH =========*/
