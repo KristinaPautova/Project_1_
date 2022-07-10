@@ -115,6 +115,47 @@ header {
 
 /* ! ========== HEADER FINISH =========*/
 
+/* ! ========== CONTENT-1 START =========*/
+
+.content_1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.content_1__left {
+  width: 40%;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+.content_1__left > span {
+  line-height: 1.45;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.content_1__left > h6 {
+  color: #939393;
+  line-height: 1.75;
+  font-size: 1rem;
+}
+
+.content_1__right {
+  width: 60%;
+  background: #fcfcfc;
+  padding: 20px;
+}
+
+.content_1__right > p {
+  font-size: 1.2rem;
+  margin-bottom: 1.375rem;
+  color: #939393;
+  line-height: 1.75;
+}
 /* ! ========== CONTENT-1 FINISH =========*/
 /* ! ========== CONTENT-2 START =========*/
 
@@ -237,7 +278,6 @@ header {
   line-height: 1.75;
   font-size: 1rem;
 }
-
 
 /* ! ========== CONTENT-3 FINISH =========*/
 
@@ -450,14 +490,6 @@ header {
     padding: 40px;
   }
 
-  .content_1 {
-    flex-direction: column;
-  }
-
-  .content_1__right {
-    width: 100%;
-  }
-
   /*todo адаптив секции инфо */
   .section-info {
     height: 650px;
@@ -550,9 +582,6 @@ ul {
     .header__right {
       display: none;
     }
-    .content_5__left > h6 {
-      display: none;
-    }
     .footer-col {
       /*width: 50%;*/
       margin-bottom: 30px;
@@ -577,10 +606,8 @@ ul {
       display: none;
     }
 
-
-
-    .content_1__left {
-      width: 100%;
+    .work__table__top {
+      flex-wrap: wrap;
     }
 
     .carousel-item > img {
@@ -606,13 +633,6 @@ ul {
       padding: 40px;
     }
 
-    .content_1 {
-      flex-direction: column;
-    }
-
-    .content_1__right {
-      width: 100%;
-    }
   }
 
   @media all and (max-width: 375px) {
